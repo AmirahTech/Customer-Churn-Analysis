@@ -57,63 +57,71 @@ This script is used to generate churn predictions for new customer data using th
 
 Quick Summary: After predictions, the script displays how many customers are predicted to churn and the percentage of total customers.
 ---
+---
 ## Project Structure
 
 
 ---
-
+---
 ## Dataset
 - **Source:** Public Telco Customer Churn dataset (7,032 rows, 20 features)  
 - **Target:** `Churn` (whether the customer left or stayed)  
 
 ---
-
+---
 ##  Workflow (in simple terms)
-1. **Prep:** cleaned data, fixed missing/invalid values, converted `TotalCharges` to numeric, one-hot encoded categoricals, scaled numeric features.  
-2. **EDA:** found churn patterns — higher for **month-to-month**, **fiber optic**, **high charges**; lower for **long tenure** and **1–2 year contracts**; **Tech support / Security add-ons** reduce churn.  
-3. **Models tried:**  
-   - Logistic Regression  
-   - Random Forest  
-   - Gradient Boosting  
-   - Tuned Random Forest (GridSearchCV)  
-   - Random Forest + SMOTE (to handle imbalance)  
-4. **Evaluation:** compared accuracy, precision, recall, F1 score.  
+- Prep: cleaned telecom data, removed missing/invalid rows, converted TotalCharges to numeric, scaled numeric features, and one-hot encoded categorical columns.
+
+- Model Training: split data into train/test, applied SMOTE to fix class imbalance, trained a tuned Random Forest model (300 trees, controlled depth, balanced weights).
+
+- Evaluation: measured accuracy, precision, recall, F1 score, and ROC-AUC to ensure churners were detected effectively.
+
+- Prediction: used saved pipeline to score new customers with churn probability and label (0 = stay, 1 = churn) at a chosen threshold.
+
+- Visualization: loaded predictions into Power BI to build dashboards showing churn risk, revenue impact, and high-priority customers for retention.
+---
 
 ---
 
 ## Results (Test Set Performance)
 
-| Model                | Accuracy | Macro Precision | Macro Recall | Macro F1 |
-|----------------------|---------:|----------------:|-------------:|---------:|
-| Logistic Regression   | 0.787    | 0.73            | 0.70         | 0.71     |
-| Random Forest         | 0.793    | 0.74            | 0.69         | 0.71     |
-| Gradient Boosting     | 0.790    | 0.73            | 0.69         | 0.71     |
-| **Tuned RF**          | **0.795**| 0.74            | 0.70         | 0.71     |
-| RF + **SMOTE**        | 0.755    | 0.70            | **0.74**     | 0.71     |
+Accuracy: 0.7466
 
-- **Best accuracy → Tuned Random Forest (~0.80)**  
-- **Best churn recall → RF + SMOTE (~0.71)** → catches more at-risk customers  
+Confusion Matrix:
+[[775 260]
+ [ 97 277]]
+
+Classification Report:
+               precision    recall  f1-score   support
+           0       0.89      0.75      0.81      1035
+           1       0.52      0.74      0.61       374
+
+    accuracy                           0.75      1409
+   macro avg       0.70      0.74      0.71      1409
+weighted avg       0.79      0.75      0.76      1409
+
+
+---
+---
+### Key Insights
+- **Overall accuracy ~75%** — the model correctly predicts churn in about three out of four cases.  
+- **High precision for non-churners (0.89)** — the model is very reliable when predicting customers who will stay.  
+- **Good recall for churners (0.74)** — the model identifies most customers who are likely to churn.  
+- **Balanced performance (F1 for churn = 0.61)** — captures churners without too many false alarms.  
+- **ROC-AUC ~0.82** — strong ability to distinguish between churn and non-churn customers.  
+- **Class imbalance handled well with SMOTE** — improved detection of minority churn class compared to baseline.  
+---
 
 ---
 
-##  Key Insights
-- Higher **TotalCharges** and **MonthlyCharges** → churn more likely  
-- Short **tenure** → churn risk high  
-- **Month-to-month** contracts & **Fiber optic** service → higher churn  
-- **TechSupport** / **OnlineSecurity** → reduce churn risk  
-- Encourage **1–2 year contracts** to stabilize customer base  
+### Business Takeaways
+- **Target high-risk customers early** — focus retention efforts on those flagged with high churn probability.  
+- **Improve customer experience for vulnerable segments** — customers on month-to-month contracts or with high monthly charges are more likely to leave.  
+- **Retention programs can reduce revenue loss** — prioritize outreach (discounts, loyalty perks, better support) for high-value accounts at risk.  
+- **Upsell protective services** — features like tech support and security add-ons are linked to lower churn rates.  
+- **Use dashboards for ongoing monitoring** — Power BI makes it easy to track churn risk and adjust strategy in real time.  
+
 
 ---
 
-## Business Takeaways
-- Focus retention efforts on **new** and **month-to-month** customers, especially on **fiber** and **high-charge** plans.  
-- Upsell **support/security services** to reduce churn.  
-- Incentivize customers to switch to **1–2 year contracts** for improved retention.  
 
----
-
-## Reproduce
-```bash
-pip install -r requirements.txt
-# Open the notebook and run cells
-# If dataset not included, download Telco Customer Churn dataset and update the path
