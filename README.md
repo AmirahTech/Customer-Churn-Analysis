@@ -92,25 +92,7 @@ Quick Summary: After predictions, the script displays how many customers are pre
 
 ---
 
-### Model Evaluation Results
 
-```text
-Accuracy: 0.7466
-
-Confusion Matrix:
-[[775 260]
- [ 97 277]]
-
-Classification Report:
-               precision    recall  f1-score   support
-           0       0.89      0.75      0.81      1035
-           1       0.52      0.74      0.61       374
-
-    accuracy                           0.75      1409
-   macro avg       0.70      0.74      0.71      1409
-weighted avg       0.79      0.75      0.76      1409
-
----
 ---
 ### Key Insights
 - **Overall accuracy ~75%** — the model correctly predicts churn in about three out of four cases.  
@@ -132,5 +114,23 @@ weighted avg       0.79      0.75      0.76      1409
 
 
 ---
+### Model Evaluation Results
 
+```text
+Accuracy: 0.7466
+
+Confusion Matrix:
+[[775 260]
+ [ 97 277]]
+
+Classification Report:
+               precision    recall  f1-score   support
+           0       0.89      0.75      0.81      1035
+           1       0.52      0.74      0.61       374
+
+    accuracy                           0.75      1409
+   macro avg       0.70      0.74      0.71      1409
+weighted avg       0.79      0.75      0.76      1409
+
+---
 
