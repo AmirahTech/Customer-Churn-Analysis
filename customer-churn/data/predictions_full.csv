@@ -1,0 +1,121 @@
+customerID,gender,SeniorCitizen,Partner,Dependents,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,tenure,MonthlyCharges,TotalCharges,churn_prediction,churn_probability
+CUST-0001,Male,1,No,No,No,Yes,Fiber optic,No internet service,No,No internet service,No,No internet service,No,One year,Yes,Electronic check,28,63.23,1770.44,1,0.4348477436009024
+CUST-0002,Female,0,Yes,Yes,No,No,DSL,Yes,Yes,No,No internet service,No,No internet service,Month-to-month,Yes,Credit card (automatic),8,114.36,914.88,0,0.3645492215486444
+CUST-0003,Male,1,No,Yes,Yes,No phone service,No,No internet service,No,No internet service,Yes,Yes,Yes,One year,Yes,Credit card (automatic),66,61.97,4090.02,0,0.2849400418732159
+CUST-0004,Male,0,Yes,No,No,No phone service,DSL,Yes,Yes,No internet service,Yes,No,Yes,Month-to-month,No,Credit card (automatic),24,83.85,2012.4,0,0.30141843749053704
+CUST-0005,Male,0,Yes,Yes,Yes,No phone service,DSL,No internet service,No internet service,Yes,No internet service,No,No internet service,Month-to-month,No,Bank transfer (automatic),41,59.76,2450.16,0,0.27819901470477515
+CUST-0006,Female,1,No,Yes,No,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Two year,No,Electronic check,8,47.42,379.36,0,0.2705939307133448
+CUST-0007,Male,1,Yes,No,Yes,No,DSL,No,Yes,No,No,No internet service,Yes,Month-to-month,No,Mailed check,39,118.4,4617.6,1,0.4511036796283423
+CUST-0008,Male,0,Yes,No,No,No,DSL,Yes,No,Yes,No,No internet service,No,One year,Yes,Mailed check,24,60.93,1462.32,0,0.3403776846173272
+CUST-0009,Male,1,Yes,Yes,Yes,No,Fiber optic,No internet service,Yes,Yes,No,Yes,No internet service,One year,No,Electronic check,4,109.41,437.64,0,0.386346147421731
+CUST-0010,Female,1,Yes,Yes,Yes,No phone service,DSL,Yes,Yes,No internet service,Yes,No internet service,No internet service,Two year,Yes,Bank transfer (automatic),10,43.0,430.0,0,0.21508544646745628
+CUST-0011,Male,1,No,No,No,Yes,DSL,Yes,No,Yes,No,Yes,No internet service,One year,Yes,Bank transfer (automatic),58,41.31,2395.98,0,0.35202598987675304
+CUST-0012,Male,0,Yes,No,Yes,No phone service,No,Yes,No internet service,No internet service,No internet service,Yes,No internet service,One year,Yes,Credit card (automatic),37,23.11,855.07,0,0.2484441795154252
+CUST-0013,Male,0,No,No,Yes,No phone service,DSL,No,No internet service,No internet service,No internet service,Yes,No,One year,Yes,Electronic check,71,85.17,6047.07,0,0.37895920575700903
+CUST-0014,Male,0,Yes,No,No,No,No,Yes,No,No internet service,Yes,No internet service,No,Month-to-month,Yes,Electronic check,4,56.85,227.4,0,0.37870864157750145
+CUST-0015,Female,0,Yes,Yes,Yes,No phone service,Fiber optic,No,No,No,No internet service,Yes,Yes,Month-to-month,No,Mailed check,47,106.44,5002.68,1,0.4525323836597235
+CUST-0016,Male,0,Yes,No,Yes,No,DSL,No,No,No,No internet service,No,Yes,One year,No,Electronic check,17,67.32,1144.44,1,0.4123224922059887
+CUST-0017,Female,0,Yes,No,Yes,Yes,No,Yes,No,No,Yes,No internet service,Yes,Two year,No,Bank transfer (automatic),69,116.82,8060.58,0,0.247141555250802
+CUST-0018,Female,0,No,Yes,No,No,No,Yes,No,No internet service,No,No internet service,Yes,Month-to-month,No,Electronic check,36,38.55,1387.8,0,0.3808531704375757
+CUST-0019,Female,0,No,No,Yes,Yes,Fiber optic,Yes,No internet service,No,No,No internet service,No,Two year,Yes,Mailed check,59,106.86,6304.74,0,0.34468973741985537
+CUST-0020,Male,0,Yes,Yes,No,No,DSL,No internet service,No internet service,No,No,No internet service,No internet service,One year,No,Credit card (automatic),47,97.66,4590.02,0,0.24286033753109257
+CUST-0021,Female,1,Yes,No,Yes,No phone service,DSL,Yes,No,Yes,Yes,No,No,One year,Yes,Mailed check,27,97.09,2621.43,0,0.3136917806149743
+CUST-0022,Male,0,No,No,Yes,No phone service,No,No,Yes,No,No internet service,No internet service,Yes,Month-to-month,No,Mailed check,68,104.48,7104.64,0,0.39826332604217174
+CUST-0023,Female,1,Yes,No,Yes,Yes,DSL,Yes,No,No,No,No internet service,No,One year,Yes,Credit card (automatic),39,96.1,3747.9,0,0.36520498010806096
+CUST-0024,Female,1,Yes,Yes,No,Yes,No,No internet service,Yes,No internet service,No,Yes,No internet service,Month-to-month,Yes,Mailed check,44,82.62,3635.28,0,0.3582945656991535
+CUST-0025,Female,1,Yes,Yes,Yes,Yes,DSL,Yes,No,No internet service,Yes,No internet service,No internet service,One year,No,Mailed check,61,33.12,2020.32,0,0.2308765253206029
+CUST-0026,Female,0,No,No,Yes,No,No,No internet service,No,No internet service,No,No,No,One year,Yes,Electronic check,57,23.25,1325.25,0,0.3958678871145107
+CUST-0027,Female,0,No,Yes,No,No,DSL,No internet service,No internet service,No internet service,Yes,No,No,Month-to-month,Yes,Electronic check,66,112.08,7397.28,0,0.36561117907842194
+CUST-0028,Female,0,No,Yes,Yes,Yes,Fiber optic,Yes,Yes,No internet service,No internet service,No,No,Month-to-month,No,Credit card (automatic),55,81.67,4491.85,0,0.3445498117390557
+CUST-0029,Female,0,Yes,Yes,No,No phone service,DSL,No,Yes,No internet service,Yes,No,Yes,Month-to-month,Yes,Electronic check,39,99.65,3886.35,0,0.3939005451218844
+CUST-0030,Female,1,Yes,Yes,No,No,DSL,No internet service,No internet service,No,Yes,No internet service,No,One year,No,Electronic check,39,68.15,2657.85,0,0.25873746710961265
+CUST-0031,Male,0,No,Yes,Yes,No,Fiber optic,Yes,No internet service,No internet service,Yes,No internet service,No,One year,No,Mailed check,32,31.73,1015.36,0,0.2568739684674763
+CUST-0032,Male,0,No,Yes,No,No,DSL,Yes,No internet service,No internet service,Yes,No,No,Two year,No,Bank transfer (automatic),5,32.52,162.6,0,0.24725565012240372
+CUST-0033,Female,0,No,No,Yes,Yes,Fiber optic,No,No internet service,Yes,No internet service,No,No internet service,Month-to-month,Yes,Electronic check,18,88.56,1594.08,1,0.5237633217423393
+CUST-0034,Female,0,No,No,No,Yes,DSL,No internet service,Yes,No,No internet service,No internet service,No internet service,One year,Yes,Bank transfer (automatic),39,63.03,2458.17,0,0.29813070305549333
+CUST-0035,Female,0,Yes,Yes,No,Yes,No,No internet service,Yes,No,No,No,Yes,One year,Yes,Electronic check,58,40.05,2322.9,0,0.3579986927310852
+CUST-0036,Male,1,No,No,Yes,Yes,No,Yes,No,No,No internet service,Yes,Yes,Month-to-month,No,Electronic check,58,69.16,4011.28,1,0.43476511418925584
+CUST-0037,Female,0,Yes,No,No,Yes,DSL,Yes,No,No internet service,No internet service,No,No internet service,Two year,Yes,Credit card (automatic),47,26.42,1241.74,0,0.25644489110892543
+CUST-0038,Male,1,No,No,No,No phone service,DSL,No,No internet service,No internet service,No,No,No internet service,Month-to-month,No,Credit card (automatic),40,78.2,3128.0,1,0.4195155535164561
+CUST-0039,Male,0,Yes,No,No,No phone service,DSL,No,No internet service,No internet service,No internet service,Yes,No internet service,Two year,No,Credit card (automatic),12,46.9,562.8,0,0.256132603041462
+CUST-0040,Male,1,No,Yes,No,Yes,No,No internet service,No internet service,Yes,Yes,Yes,No,One year,Yes,Bank transfer (automatic),44,99.76,4389.44,0,0.2683745553927183
+CUST-0041,Male,0,No,No,No,No,DSL,No internet service,No,No internet service,Yes,No internet service,No,Two year,No,Mailed check,52,51.04,2654.08,0,0.2564270720226278
+CUST-0042,Male,0,No,No,Yes,Yes,No,Yes,No,Yes,No,No internet service,No internet service,One year,Yes,Electronic check,41,65.52,2686.32,0,0.3587262690851433
+CUST-0043,Female,1,No,Yes,No,No phone service,Fiber optic,No internet service,No,No,No,Yes,No,Month-to-month,Yes,Electronic check,62,21.16,1311.92,1,0.5249123733411774
+CUST-0044,Female,1,Yes,Yes,Yes,No phone service,No,No,No,No internet service,No,Yes,No,Month-to-month,Yes,Electronic check,26,27.24,708.24,1,0.5142469577242179
+CUST-0045,Female,1,No,No,No,No,No,No,No,Yes,Yes,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),37,59.25,2192.25,1,0.42429406263075947
+CUST-0046,Female,0,Yes,No,Yes,No phone service,Fiber optic,Yes,No,Yes,No internet service,No,No internet service,Two year,Yes,Credit card (automatic),59,67.99,4011.41,0,0.2838022274852316
+CUST-0047,Female,1,Yes,No,Yes,Yes,No,No,No,No internet service,Yes,Yes,No internet service,One year,No,Mailed check,6,80.0,480.0,0,0.32922517131703355
+CUST-0048,Male,0,Yes,No,No,No,DSL,No,No internet service,No,No,No internet service,No,Month-to-month,No,Bank transfer (automatic),4,49.17,196.68,1,0.46636642369757975
+CUST-0049,Female,0,Yes,No,No,Yes,DSL,No,No internet service,No,No internet service,No,No internet service,Month-to-month,No,Credit card (automatic),44,89.5,3938.0,0,0.3854000538960594
+CUST-0050,Female,1,No,No,No,Yes,No,No,No internet service,No,No internet service,Yes,Yes,One year,Yes,Bank transfer (automatic),57,106.01,6042.57,0,0.3684797588507563
+CUST-0051,Male,1,Yes,Yes,Yes,No,DSL,Yes,No internet service,Yes,Yes,No,Yes,Month-to-month,Yes,Mailed check,30,97.99,2939.7,0,0.3315144604947771
+CUST-0052,Female,0,Yes,No,No,Yes,No,Yes,No,Yes,No,No internet service,Yes,One year,Yes,Credit card (automatic),22,23.96,527.12,0,0.3445434628683074
+CUST-0053,Male,0,Yes,No,Yes,No phone service,DSL,No internet service,Yes,Yes,Yes,Yes,No internet service,One year,No,Bank transfer (automatic),41,68.05,2790.05,0,0.2441618131667111
+CUST-0054,Female,1,No,Yes,Yes,Yes,DSL,No,No,Yes,No internet service,No,No internet service,One year,Yes,Mailed check,9,30.49,274.41,0,0.3972813239297745
+CUST-0055,Male,1,No,Yes,Yes,No,No,No internet service,Yes,No,Yes,Yes,No internet service,One year,No,Electronic check,31,44.2,1370.2,0,0.2936212195501709
+CUST-0056,Female,1,No,Yes,No,No,DSL,Yes,No internet service,No internet service,Yes,No,No internet service,One year,No,Mailed check,52,118.67,6170.84,0,0.2474248093533789
+CUST-0057,Female,0,No,Yes,No,No,No,Yes,No,Yes,No,No internet service,No internet service,Two year,Yes,Electronic check,29,34.25,993.25,0,0.3062912049029801
+CUST-0058,Male,0,Yes,No,Yes,Yes,DSL,Yes,No internet service,Yes,No,No internet service,Yes,Month-to-month,Yes,Bank transfer (automatic),38,69.89,2655.82,0,0.38094398554998216
+CUST-0059,Male,0,Yes,No,Yes,No,DSL,Yes,No,No,No internet service,Yes,No,Two year,No,Credit card (automatic),30,81.82,2454.6,0,0.2622479403616602
+CUST-0060,Male,0,No,No,No,No,Fiber optic,Yes,No internet service,No internet service,Yes,No,Yes,Month-to-month,Yes,Credit card (automatic),1,90.25,90.25,1,0.4418179802791167
+CUST-0061,Male,0,Yes,No,Yes,Yes,Fiber optic,Yes,Yes,No internet service,Yes,Yes,No internet service,Two year,No,Bank transfer (automatic),11,75.96,835.56,0,0.26056489574687
+CUST-0062,Male,0,Yes,No,No,No phone service,No,Yes,Yes,No,Yes,Yes,Yes,One year,Yes,Credit card (automatic),38,20.98,797.24,0,0.29041158267460593
+CUST-0063,Male,1,Yes,No,Yes,Yes,Fiber optic,No,Yes,No,No internet service,No,No internet service,Month-to-month,Yes,Credit card (automatic),65,52.65,3422.25,1,0.4630151643928639
+CUST-0064,Male,0,No,Yes,No,No,No,No internet service,No,No internet service,No internet service,No,No internet service,Month-to-month,No,Electronic check,12,71.77,861.24,0,0.3569855199511472
+CUST-0065,Male,0,No,No,Yes,No,Fiber optic,Yes,Yes,Yes,No,No,Yes,Two year,Yes,Bank transfer (automatic),45,28.79,1295.55,0,0.3427469738968759
+CUST-0066,Female,0,Yes,Yes,No,Yes,DSL,No,No,No internet service,No,No internet service,No internet service,Two year,No,Mailed check,26,55.06,1431.56,0,0.26729709392140666
+CUST-0067,Female,1,No,Yes,Yes,No phone service,No,No,Yes,No,No,Yes,No,Month-to-month,Yes,Electronic check,16,23.32,373.12,1,0.544182333257448
+CUST-0068,Male,0,No,No,No,No,No,No internet service,Yes,Yes,Yes,Yes,No internet service,Two year,No,Bank transfer (automatic),59,27.86,1643.74,0,0.22906219223094823
+CUST-0069,Female,0,No,Yes,No,No,DSL,Yes,No,Yes,Yes,No internet service,No,Two year,No,Electronic check,63,59.69,3760.47,0,0.2390072056663162
+CUST-0070,Female,1,No,No,Yes,No,No,No internet service,No,No,No,No,No,Two year,Yes,Mailed check,34,33.27,1131.18,0,0.38111294740782764
+CUST-0071,Female,0,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No internet service,No internet service,One year,No,Mailed check,69,76.75,5295.75,0,0.23706350965076345
+CUST-0072,Female,0,Yes,No,No,No,Fiber optic,No,No,No,No,No internet service,Yes,One year,Yes,Bank transfer (automatic),29,88.95,2579.55,1,0.4477634912334146
+CUST-0073,Male,0,No,Yes,Yes,No phone service,No,No,Yes,No internet service,No internet service,No internet service,No,Two year,Yes,Mailed check,70,100.06,7004.2,0,0.26955024545492906
+CUST-0074,Female,0,Yes,No,No,No,DSL,No,No,No internet service,No,Yes,Yes,Two year,Yes,Electronic check,62,40.02,2481.24,0,0.3861424238209146
+CUST-0075,Male,0,Yes,No,Yes,No,Fiber optic,No,No internet service,Yes,No internet service,No internet service,No,One year,No,Mailed check,27,36.75,992.25,0,0.30814846636183857
+CUST-0076,Female,1,No,No,No,No phone service,Fiber optic,No internet service,No internet service,No,Yes,Yes,No internet service,One year,No,Electronic check,59,30.46,1797.14,0,0.35318725281574903
+CUST-0077,Female,1,Yes,No,No,No,DSL,Yes,No internet service,Yes,No,Yes,No internet service,Month-to-month,Yes,Electronic check,36,83.64,3011.04,1,0.43890490125948617
+CUST-0078,Female,1,Yes,No,No,Yes,DSL,Yes,No internet service,Yes,Yes,Yes,No,Month-to-month,Yes,Mailed check,21,90.65,1903.65,0,0.36996227342114985
+CUST-0079,Male,0,Yes,Yes,No,Yes,Fiber optic,No internet service,No internet service,Yes,No internet service,No,No internet service,One year,No,Bank transfer (automatic),67,23.16,1551.72,0,0.24842754572536588
+CUST-0080,Female,0,No,Yes,No,Yes,No,Yes,Yes,Yes,No internet service,Yes,No,Two year,Yes,Credit card (automatic),19,113.62,2158.78,0,0.2669535515719557
+CUST-0081,Male,0,No,Yes,No,No phone service,Fiber optic,No,No internet service,No,No internet service,Yes,No internet service,Two year,Yes,Mailed check,67,25.2,1688.4,0,0.3106957373716954
+CUST-0082,Female,1,Yes,No,Yes,No,DSL,Yes,No internet service,Yes,Yes,No,Yes,Two year,No,Electronic check,63,74.13,4670.19,0,0.24237291869578967
+CUST-0083,Male,0,No,Yes,Yes,Yes,Fiber optic,No,No internet service,No,Yes,Yes,No internet service,Two year,Yes,Electronic check,16,90.91,1454.56,0,0.3716730252837763
+CUST-0084,Female,0,No,No,Yes,No phone service,DSL,No internet service,No internet service,No,Yes,No internet service,Yes,Month-to-month,No,Mailed check,11,107.1,1178.1,0,0.3757454034802616
+CUST-0085,Male,1,No,No,No,No,Fiber optic,Yes,No,No internet service,Yes,No internet service,No internet service,One year,Yes,Bank transfer (automatic),21,91.41,1919.61,0,0.3321398364606046
+CUST-0086,Male,0,No,Yes,No,No phone service,No,No internet service,Yes,No,No internet service,Yes,Yes,Two year,No,Bank transfer (automatic),16,100.17,1602.72,0,0.26260524866854734
+CUST-0087,Female,1,Yes,Yes,No,Yes,Fiber optic,Yes,No internet service,No internet service,No internet service,No,No internet service,Month-to-month,Yes,Electronic check,9,53.95,485.55,0,0.3890624312953357
+CUST-0088,Male,1,Yes,No,No,Yes,Fiber optic,No,No internet service,No,No,No internet service,Yes,Two year,Yes,Electronic check,64,101.48,6494.72,1,0.44995211012125147
+CUST-0089,Female,1,No,Yes,Yes,Yes,DSL,No internet service,No internet service,No,No,No,No,One year,No,Bank transfer (automatic),21,28.01,588.21,0,0.3291213415607613
+CUST-0090,Female,0,No,No,Yes,No phone service,DSL,Yes,Yes,No,Yes,No,No,Month-to-month,Yes,Credit card (automatic),49,109.48,5364.52,0,0.3846565008940323
+CUST-0091,Female,0,Yes,No,No,No phone service,DSL,No,No,No internet service,No internet service,No internet service,Yes,One year,No,Mailed check,13,74.76,971.88,0,0.31424064403064716
+CUST-0092,Female,0,Yes,No,Yes,Yes,Fiber optic,No internet service,Yes,No internet service,No internet service,No,No internet service,One year,Yes,Electronic check,63,101.73,6408.99,0,0.34741095923876286
+CUST-0093,Female,0,No,No,Yes,No phone service,No,No internet service,No,Yes,No internet service,No internet service,Yes,Month-to-month,No,Electronic check,46,65.23,3000.58,0,0.37013176093109423
+CUST-0094,Female,0,Yes,No,No,Yes,DSL,Yes,No internet service,No internet service,No,No,No internet service,Month-to-month,No,Bank transfer (automatic),28,84.36,2362.08,0,0.34964476512527604
+CUST-0095,Female,0,No,Yes,Yes,Yes,DSL,Yes,No internet service,No internet service,No,No internet service,No,Month-to-month,No,Mailed check,35,72.64,2542.4,0,0.33643344229390343
+CUST-0096,Female,0,No,Yes,No,No,Fiber optic,Yes,Yes,No internet service,No internet service,Yes,No internet service,Month-to-month,No,Bank transfer (automatic),51,93.16,4751.16,0,0.32480970497719996
+CUST-0097,Female,1,Yes,No,Yes,No phone service,DSL,No,Yes,No internet service,No internet service,No internet service,No,Month-to-month,Yes,Mailed check,6,28.16,168.96,1,0.43406190767240926
+CUST-0098,Female,0,Yes,No,No,Yes,No,Yes,No,Yes,No internet service,No internet service,No internet service,Month-to-month,Yes,Mailed check,28,26.04,729.12,0,0.3426520059713838
+CUST-0099,Female,1,No,Yes,No,Yes,No,No internet service,No,No internet service,No,No internet service,No internet service,Month-to-month,No,Mailed check,10,44.71,447.1,0,0.3687511292797003
+CUST-0100,Male,0,No,Yes,No,No phone service,DSL,No internet service,Yes,No,No internet service,No internet service,No internet service,Two year,No,Electronic check,32,35.95,1150.4,0,0.25173820287251175
+CUST-0101,Male,0,Yes,No,No,No,DSL,Yes,No,No,No internet service,No,Yes,One year,No,Credit card (automatic),5,107.18,535.9,0,0.32463681552935153
+CUST-0102,Female,0,No,Yes,Yes,No,Fiber optic,Yes,Yes,No internet service,Yes,Yes,Yes,Month-to-month,Yes,Bank transfer (automatic),31,41.92,1299.52,0,0.3689772143897991
+CUST-0103,Female,1,Yes,No,No,Yes,No,No internet service,No,No internet service,Yes,No internet service,No,Two year,Yes,Credit card (automatic),50,117.59,5879.5,0,0.25787525021163393
+CUST-0104,Female,1,No,Yes,No,No phone service,No,No,Yes,No,No,No,No,Two year,Yes,Bank transfer (automatic),57,53.69,3060.33,0,0.3307619040620433
+CUST-0105,Female,1,Yes,No,No,No,DSL,Yes,Yes,No,No internet service,Yes,Yes,Two year,Yes,Mailed check,25,38.21,955.25,0,0.2904929212022737
+CUST-0106,Female,1,Yes,Yes,Yes,No phone service,Fiber optic,Yes,Yes,Yes,No internet service,Yes,No,One year,No,Electronic check,45,98.97,4453.65,0,0.3104008686435631
+CUST-0107,Female,0,Yes,No,No,No phone service,No,No internet service,No,No,Yes,Yes,Yes,Month-to-month,No,Credit card (automatic),28,85.87,2404.36,0,0.378333060809202
+CUST-0108,Female,1,No,Yes,Yes,Yes,No,Yes,No,No,No,Yes,No internet service,Two year,No,Electronic check,3,69.82,209.46,0,0.34745682959150276
+CUST-0109,Female,0,No,Yes,No,No,Fiber optic,No,No,No internet service,Yes,No internet service,No,One year,Yes,Bank transfer (automatic),12,75.54,906.48,0,0.37588875584810066
+CUST-0110,Male,0,Yes,No,Yes,Yes,Fiber optic,No internet service,Yes,No,Yes,No internet service,No,One year,Yes,Electronic check,38,91.92,3492.96,0,0.39512683542549937
+CUST-0111,Female,1,No,Yes,Yes,No,No,Yes,No,Yes,Yes,No,Yes,One year,Yes,Electronic check,14,42.85,599.9,0,0.36987204219322845
+CUST-0112,Male,1,Yes,No,No,No,No,No internet service,No,No,Yes,No,No,Two year,No,Credit card (automatic),28,119.63,3349.64,0,0.2771420140890267
+CUST-0113,Female,1,Yes,Yes,Yes,No,Fiber optic,Yes,Yes,No internet service,No internet service,No,No,Month-to-month,No,Mailed check,28,117.48,3289.44,0,0.3536277864803858
+CUST-0114,Female,1,No,No,No,No,No,Yes,No internet service,No internet service,No internet service,Yes,No internet service,Two year,Yes,Electronic check,31,85.03,2635.93,0,0.2819971013324125
+CUST-0115,Male,1,No,Yes,No,No,DSL,Yes,Yes,No,Yes,Yes,No,Two year,No,Mailed check,1,39.95,39.95,0,0.2762409543014153
+CUST-0116,Female,1,Yes,No,No,No phone service,DSL,No,No,No internet service,No,No internet service,No internet service,Month-to-month,Yes,Bank transfer (automatic),46,88.02,4048.92,1,0.4462597026993392
+CUST-0117,Male,1,No,Yes,Yes,Yes,Fiber optic,No,Yes,Yes,No,Yes,Yes,Month-to-month,Yes,Electronic check,21,27.22,571.62,1,0.6044174380494727
+CUST-0118,Female,1,No,No,Yes,No phone service,Fiber optic,No internet service,No internet service,Yes,No,Yes,No,Month-to-month,No,Credit card (automatic),26,23.07,599.82,1,0.43277061919538284
+CUST-0119,Female,0,Yes,Yes,No,No,Fiber optic,Yes,Yes,No,No,Yes,No internet service,One year,Yes,Bank transfer (automatic),66,45.77,3020.82,0,0.3201392566866615
+CUST-0120,Male,1,Yes,No,No,Yes,DSL,Yes,No,No,Yes,No,Yes,Month-to-month,No,Bank transfer (automatic),55,66.26,3644.3,0,0.3630309856488413
