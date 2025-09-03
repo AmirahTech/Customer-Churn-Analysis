@@ -3,8 +3,38 @@
 This project implements a customer churn prediction model for a telecom company. The goal is to predict which customers are likely to leave the service using a Random Forest Classifier with SMOTE balancing and a full preprocessing pipeline. Predictions can be exported to CSV and visualized in Power BI dashboards.
 
 ---
+🛠 Technologies Used
 
+Python 3.9+
+
+Pandas – data manipulation
+
+Scikit-learn – preprocessing, modeling, evaluation
+
+Imbalanced-learn (SMOTE) – class balancing
+
+Joblib – save/load model pipeline
+
+Power BI – dashboard visualization
 ---
+---
+## Dataset
+- **Source:** Public Telco Customer Churn dataset (7,032 rows, 20 features)  
+- **Target:** `Churn` (whether the customer left or stayed)
+---
+---
+##  Workflow (in simple terms)
+- Prep: cleaned telecom data, removed missing/invalid rows, converted TotalCharges to numeric, scaled numeric features, and one-hot encoded categorical columns.
+
+- Model Training: split data into train/test, applied SMOTE to fix class imbalance, trained a tuned Random Forest model (300 trees, controlled depth, balanced weights).
+
+- Evaluation: measured accuracy, precision, recall, F1 score, and ROC-AUC to ensure churners were detected effectively.
+
+- Prediction: used saved pipeline to score new customers with churn probability and label (0 = stay, 1 = churn) at a chosen threshold.
+
+- Visualization: loaded predictions into Power BI to build dashboards showing churn risk, revenue impact, and high-priority customers for retention.
+---
+
 ## Preprocess.py
 This script handles the initial data cleaning and feature preprocessing required for churn prediction. It performs the following key tasks:
 
@@ -57,29 +87,8 @@ This script is used to generate churn predictions for new customer data using th
 
 Quick Summary: After predictions, the script displays how many customers are predicted to churn and the percentage of total customers.
 ---
----
-## Project Structure
 
 
----
----
-## Dataset
-- **Source:** Public Telco Customer Churn dataset (7,032 rows, 20 features)  
-- **Target:** `Churn` (whether the customer left or stayed)  
-
----
----
-##  Workflow (in simple terms)
-- Prep: cleaned telecom data, removed missing/invalid rows, converted TotalCharges to numeric, scaled numeric features, and one-hot encoded categorical columns.
-
-- Model Training: split data into train/test, applied SMOTE to fix class imbalance, trained a tuned Random Forest model (300 trees, controlled depth, balanced weights).
-
-- Evaluation: measured accuracy, precision, recall, F1 score, and ROC-AUC to ensure churners were detected effectively.
-
-- Prediction: used saved pipeline to score new customers with churn probability and label (0 = stay, 1 = churn) at a chosen threshold.
-
-- Visualization: loaded predictions into Power BI to build dashboards showing churn risk, revenue impact, and high-priority customers for retention.
----
 
 ---
 
