@@ -92,8 +92,9 @@ Quick Summary: After predictions, the script displays how many customers are pre
 
 ---
 
-## Results (Test Set Performance)
+### Model Evaluation Results
 
+```text
 Accuracy: 0.7466
 
 Confusion Matrix:
@@ -108,7 +109,6 @@ Classification Report:
     accuracy                           0.75      1409
    macro avg       0.70      0.74      0.71      1409
 weighted avg       0.79      0.75      0.76      1409
-
 
 ---
 ---
