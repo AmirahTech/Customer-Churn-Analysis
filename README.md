@@ -1,4 +1,4 @@
-# 📊 Customer Churn Prediction
+# 📊 Customer Analytics: Churn Prediction & Business Intelligence
 
 This project implements a customer churn prediction model for a telecom company. The goal is to predict which customers are likely to leave the service using a Random Forest Classifier with SMOTE balancing and a full preprocessing pipeline. Predictions can be exported to CSV and visualized in Power BI dashboards.
 
